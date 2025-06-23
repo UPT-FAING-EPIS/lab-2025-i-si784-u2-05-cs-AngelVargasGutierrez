@@ -1,3 +1,5 @@
+# reportgenerator
+# stryker
 name: Publish Coverage Report
 on:
   push:
