@@ -1,0 +1,25 @@
+{
+  "metadata": [
+    {
+      "src": [
+        { "files": ["Bank/Bank.Domain/*.csproj"] }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      { "files": ["**/*.yml", "**/*.md"] }
+    ],
+    "resource": [
+      { "files": ["**/images/**"] }
+    ],
+    "overwrite": [
+      { "files": ["**/*.md"] }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_enableSearch": true
+    }
+  }
+} 
