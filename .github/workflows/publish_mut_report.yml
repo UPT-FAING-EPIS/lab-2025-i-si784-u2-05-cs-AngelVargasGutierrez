@@ -15,7 +15,7 @@ jobs:
       - name: Install Stryker
         run: dotnet tool install -g dotnet-stryker
       - name: Run Stryker
-        run: dotnet-stryker --reporters html
+        run: dotnet-stryker --reporter html
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
