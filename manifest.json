@@ -19,6 +19,61 @@
         }
       },
       "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bank.Domain.BankAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bank.Domain.BankAccount.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Domain.BankAccount",
+      "Summary": "<p sourcefile=\"api/Bank.Domain.BankAccount.yml\" sourcestartlinenumber=\"1\">Representa una cuenta bancaria con operaciones de débito y crédito.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bank.Domain.Class1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bank.Domain.Class1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Domain.Class1",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Bank.Domain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Bank.Domain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Bank.Domain",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
     }
   ],
   "groups": [
