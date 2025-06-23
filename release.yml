@@ -21,4 +21,6 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
-          files: Bank/Bank.Domain/bin/Release/*.nupkg 
+          files: Bank/Bank.Domain/bin/Release/*.nupkg
+
+# nuget 
