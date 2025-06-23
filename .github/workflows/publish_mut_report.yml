@@ -15,7 +15,7 @@ jobs:
       - name: Install Stryker
         run: dotnet tool install -g dotnet-stryker
       - name: Run Stryker
-        run: dotnet-stryker --reporter html --project-file Bank.Domain.Tests/Bank.Domain.Tests.csproj
+        run: dotnet-stryker --reporter html --project Bank.Domain.Tests/Bank.Domain.Tests.csproj
         working-directory: Bank
       - name: Publish to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
